@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
+      colors: { 
         forest: {
           900: '#0b1120', // background_primary
           800: '#0f1f18', // background_secondary
