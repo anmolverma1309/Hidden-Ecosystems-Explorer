@@ -17,4 +17,4 @@
 404 https://images.unsplash.com/photo-1511497584788-8767601ad209?auto=format&fit=crop&q=80&w=1200
 404 https://images.unsplash.com/photo-1585250005470-38c2bf80bde4?auto=format&fit=crop&q=80&w=600
 404 https://images.unsplash.com/photo-1563333464-9669bf41f480?auto=format&fit=crop&q=80&w=600
-200 https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?auto=format&fit=crop&q=80&w=600
+200 https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?auto=format&fit=crop&q=80&w=600 
