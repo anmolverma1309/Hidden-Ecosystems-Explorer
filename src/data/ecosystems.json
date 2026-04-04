@@ -1,0 +1,339 @@
+{
+  "products": [
+    {
+      "id": "prod_001",
+      "barcode": "5449000000996",
+      "name": "Arabica Coffee",
+      "category": "beverage",
+      "ecosystem": {
+        "id": "eco_cloud_forest",
+        "name": "Andean Cloud Forest",
+        "region": "Northern Andes",
+        "country": "Colombia",
+        "threat_level": "Vulnerable",
+        "image_url": "/species/eco_cloud_forest.jpg",
+        "geojson_region": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -75,
+                5
+              ],
+              [
+                -73,
+                5
+              ],
+              [
+                -73,
+                7
+              ],
+              [
+                -75,
+                7
+              ],
+              [
+                -75,
+                5
+              ]
+            ]
+          ]
+        }
+      },
+      "species": [
+        {
+          "id": "sp_hummingbird",
+          "common_name": "Rufous-tailed Hummingbird",
+          "scientific_name": "Amazilia tzacatl",
+          "role": "Pollinator — transfers pollen between coffee flowers",
+          "threat_status": "Least Concern",
+          "image_url": "/species/sp_hummingbird.jpg"
+        },
+        {
+          "id": "sp_bumblebee",
+          "common_name": "Andean Bumblebee",
+          "scientific_name": "Bombus funebris",
+          "role": "Pollinator — buzz pollination for deep flowers",
+          "threat_status": "Vulnerable",
+          "image_url": "/species/sp_bumblebee.jpg"
+        },
+        {
+          "id": "sp_shade_tree",
+          "common_name": "Guama Tree",
+          "scientific_name": "Inga edulis",
+          "role": "Habitat — provides shade and nitrogen for coffee plants",
+          "threat_status": "Least Concern",
+          "image_url": "/species/sp_shade_tree.jpg"
+        }
+      ]
+    },
+    {
+      "id": "prod_002",
+      "barcode": "1234567890123",
+      "name": "California Almonds",
+      "category": "snack",
+      "ecosystem": {
+        "id": "eco_california_orchard",
+        "name": "California Orchard Ecosystem",
+        "region": "Central Valley",
+        "country": "USA",
+        "threat_level": "Endangered",
+        "image_url": "/species/eco_california_orchard.jpg",
+        "geojson_region": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -120,
+                35
+              ],
+              [
+                -118,
+                35
+              ],
+              [
+                -118,
+                38
+              ],
+              [
+                -120,
+                38
+              ],
+              [
+                -120,
+                35
+              ]
+            ]
+          ]
+        }
+      },
+      "species": [
+        {
+          "id": "sp_honeybee",
+          "common_name": "European Honeybee",
+          "scientific_name": "Apis mellifera",
+          "role": "Pollinator — essential for 100% of commercial almond crop",
+          "threat_status": "Least Concern",
+          "image_url": "/species/sp_honeybee.jpg"
+        },
+        {
+          "id": "sp_mason_bee",
+          "common_name": "Blue Orchard Mason Bee",
+          "scientific_name": "Osmia lignaria",
+          "role": "Native Pollinator — highly efficient cold-weather pollinator",
+          "threat_status": "Least Concern",
+          "image_url": "/species/sp_mason_bee.jpg"
+        },
+        {
+          "id": "sp_valley_oak",
+          "common_name": "Valley Oak",
+          "scientific_name": "Quercus lobata",
+          "role": "Keystone Species — provides habitat for native pollinators",
+          "threat_status": "Near Threatened",
+          "image_url": "/species/sp_valley_oak.jpg"
+        }
+      ]
+    },
+    {
+      "id": "prod_003",
+      "barcode": "5901234567890",
+      "name": "Dark Chocolate",
+      "category": "snack",
+      "ecosystem": {
+        "id": "eco_tropical_rainforest",
+        "name": "Tropical Rainforest Understory",
+        "region": "Amazon Basin",
+        "country": "Brazil",
+        "threat_level": "Vulnerable",
+        "image_url": "/species/eco_tropical_rainforest.jpg",
+        "geojson_region": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -65,
+                -5
+              ],
+              [
+                -55,
+                -5
+              ],
+              [
+                -55,
+                5
+              ],
+              [
+                -65,
+                5
+              ],
+              [
+                -65,
+                -5
+              ]
+            ]
+          ]
+        }
+      },
+      "species": [
+        {
+          "id": "sp_midge_fly",
+          "common_name": "Chocolate Midge Fly",
+          "scientific_name": "Forcipomyia",
+          "role": "Pollinator — the only insect small enough to pollinate cacao flowers",
+          "threat_status": "Data Deficient",
+          "image_url": "/species/sp_midge_fly.jpg"
+        },
+        {
+          "id": "sp_jaguar",
+          "common_name": "Jaguar",
+          "scientific_name": "Panthera onca",
+          "role": "Apex Predator — controls herbivore populations protecting young trees",
+          "threat_status": "Near Threatened",
+          "image_url": "/species/sp_jaguar.jpg"
+        },
+        {
+          "id": "sp_strangler_fig",
+          "common_name": "Strangler Fig",
+          "scientific_name": "Ficus aurea",
+          "role": "Keystone Resource — provides food year-round for wildlife",
+          "threat_status": "Least Concern",
+          "image_url": "/species/sp_strangler_fig.jpg"
+        }
+      ]
+    },
+    {
+      "id": "prod_004",
+      "barcode": "4001234567890",
+      "name": "Cotton T-Shirt",
+      "category": "clothing",
+      "ecosystem": {
+        "id": "eco_riparian_grasslands",
+        "name": "Riparian Grasslands",
+        "region": "Punjab",
+        "country": "India",
+        "threat_level": "Endangered",
+        "image_url": "/species/eco_riparian_grasslands.jpg",
+        "geojson_region": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                74,
+                29
+              ],
+              [
+                76,
+                29
+              ],
+              [
+                76,
+                31
+              ],
+              [
+                74,
+                31
+              ],
+              [
+                74,
+                29
+              ]
+            ]
+          ]
+        }
+      },
+      "species": [
+        {
+          "id": "sp_parasite_wasp",
+          "common_name": "Boll Weevil Parasite Wasp",
+          "scientific_name": "Catolaccus grandis",
+          "role": "Pest Control — naturally predates on cotton pests",
+          "threat_status": "Not Evaluated",
+          "image_url": "/species/sp_parasite_wasp.jpg"
+        },
+        {
+          "id": "sp_soil_nematode",
+          "common_name": "Beneficial Nematode",
+          "scientific_name": "Steinernema",
+          "role": "Soil Health — controls soil-borne pests and aerates soil",
+          "threat_status": "Least Concern",
+          "image_url": "/species/sp_soil_nematode.jpg"
+        },
+        {
+          "id": "sp_migratory_bird",
+          "common_name": "Rosy Starling",
+          "scientific_name": "Pastor roseus",
+          "role": "Pest Control — massive consumption of locusts and insects",
+          "threat_status": "Least Concern",
+          "image_url": "/species/sp_migratory_bird.jpg"
+        }
+      ]
+    },
+    {
+      "id": "prod_005",
+      "barcode": "3017620422003",
+      "name": "Hass Avocado",
+      "category": "produce",
+      "ecosystem": {
+        "id": "eco_subtropical_forest",
+        "name": "Subtropical Dry Forest",
+        "region": "Michoacán",
+        "country": "Mexico",
+        "threat_level": "Endangered",
+        "image_url": "/species/eco_subtropical_forest.jpg",
+        "geojson_region": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -103,
+                18
+              ],
+              [
+                -100,
+                18
+              ],
+              [
+                -100,
+                20
+              ],
+              [
+                -103,
+                20
+              ],
+              [
+                -103,
+                18
+              ]
+            ]
+          ]
+        }
+      },
+      "species": [
+        {
+          "id": "sp_honeybee_mex",
+          "common_name": "Honeybee",
+          "scientific_name": "Apis mellifera",
+          "role": "Primary Pollinator",
+          "threat_status": "Least Concern",
+          "image_url": "/species/sp_honeybee.jpg"
+        },
+        {
+          "id": "sp_monarch",
+          "common_name": "Monarch Butterfly",
+          "scientific_name": "Danaus plexippus",
+          "role": "Indicator Species — shares overwintering habitat near avocado regions",
+          "threat_status": "Endangered",
+          "image_url": "/species/sp_monarch.jpg"
+        },
+        {
+          "id": "sp_mexican_pine",
+          "common_name": "Smooth-bark Mexican Pine",
+          "scientific_name": "Pinus pseudostrobus",
+          "role": "Canopy Tree — native forest often cleared for avocado expansion",
+          "threat_status": "Least Concern",
+          "image_url": "/species/sp_mexican_pine.jpg"
+        }
+      ]
+    }
+  ]
+}
