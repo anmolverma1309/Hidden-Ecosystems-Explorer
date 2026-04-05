@@ -1,7 +1,11 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function SafeImage({ src, alt, className, ...props }) {
   const [error, setError] = useState(false);
+
+  useEffect(() => {
+    setError(false);
+  }, [src]);
 
   if (!src) return <div className={`bg-forest-800 ${className}`} />;
 

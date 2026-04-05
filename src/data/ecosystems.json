@@ -11,31 +11,16 @@
         "region": "Northern Andes",
         "country": "Colombia",
         "threat_level": "Vulnerable",
-        "image_url": "/species/eco_cloud_forest.jpg",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Andean_cloudforest_-_Mindo.jpg",
         "geojson_region": {
           "type": "Polygon",
           "coordinates": [
             [
-              [
-                -75,
-                5
-              ],
-              [
-                -73,
-                5
-              ],
-              [
-                -73,
-                7
-              ],
-              [
-                -75,
-                7
-              ],
-              [
-                -75,
-                5
-              ]
+              [-75, 5],
+              [-73, 5],
+              [-73, 7],
+              [-75, 7],
+              [-75, 5]
             ]
           ]
         }
@@ -47,7 +32,7 @@
           "scientific_name": "Amazilia tzacatl",
           "role": "Pollinator — transfers pollen between coffee flowers",
           "threat_status": "Least Concern",
-          "image_url": "/species/sp_hummingbird.jpg"
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Rufous-tailed_hummingbird_%28Amazilia_tzacatl_fuscicaudata%29_male_Las_Tangaras.jpg"
         },
         {
           "id": "sp_bumblebee",
@@ -55,7 +40,7 @@
           "scientific_name": "Bombus funebris",
           "role": "Pollinator — buzz pollination for deep flowers",
           "threat_status": "Vulnerable",
-          "image_url": "/species/sp_bumblebee.jpg"
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Bombus_lapidarius_-_Melilotus_officinalis_-_Tallinn.jpg"
         },
         {
           "id": "sp_shade_tree",
@@ -63,7 +48,7 @@
           "scientific_name": "Inga edulis",
           "role": "Habitat — provides shade and nitrogen for coffee plants",
           "threat_status": "Least Concern",
-          "image_url": "/species/sp_shade_tree.jpg"
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Ing%C3%A1_Inga_edulis_2.JPG"
         }
       ]
     },
@@ -78,31 +63,16 @@
         "region": "Central Valley",
         "country": "USA",
         "threat_level": "Endangered",
-        "image_url": "/species/eco_california_orchard.jpg",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Beekeepers_inspect_their_colonies_in_a_California_almond_orchard.jpg",
         "geojson_region": {
           "type": "Polygon",
           "coordinates": [
             [
-              [
-                -120,
-                35
-              ],
-              [
-                -118,
-                35
-              ],
-              [
-                -118,
-                38
-              ],
-              [
-                -120,
-                38
-              ],
-              [
-                -120,
-                35
-              ]
+              [-120, 35],
+              [-118, 35],
+              [-118, 38],
+              [-120, 38],
+              [-120, 35]
             ]
           ]
         }
@@ -114,7 +84,7 @@
           "scientific_name": "Apis mellifera",
           "role": "Pollinator — essential for 100% of commercial almond crop",
           "threat_status": "Least Concern",
-          "image_url": "/species/sp_honeybee.jpg"
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Apis_mellifera_Western_honey_bee.jpg"
         },
         {
           "id": "sp_mason_bee",
@@ -122,7 +92,7 @@
           "scientific_name": "Osmia lignaria",
           "role": "Native Pollinator — highly efficient cold-weather pollinator",
           "threat_status": "Least Concern",
-          "image_url": "/species/sp_mason_bee.jpg"
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Osmia_lignaria_couple.jpg"
         },
         {
           "id": "sp_valley_oak",
@@ -130,7 +100,7 @@
           "scientific_name": "Quercus lobata",
           "role": "Keystone Species — provides habitat for native pollinators",
           "threat_status": "Near Threatened",
-          "image_url": "/species/sp_valley_oak.jpg"
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Valley_Oak_Mount_Diablo.jpg"
         }
       ]
     },
@@ -145,31 +115,16 @@
         "region": "Amazon Basin",
         "country": "Brazil",
         "threat_level": "Vulnerable",
-        "image_url": "/species/eco_tropical_rainforest.jpg",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Amazon17_%285641020319%29.jpg",
         "geojson_region": {
           "type": "Polygon",
           "coordinates": [
             [
-              [
-                -65,
-                -5
-              ],
-              [
-                -55,
-                -5
-              ],
-              [
-                -55,
-                5
-              ],
-              [
-                -65,
-                5
-              ],
-              [
-                -65,
-                -5
-              ]
+              [-65, -5],
+              [-55, -5],
+              [-55, 5],
+              [-65, 5],
+              [-65, -5]
             ]
           ]
         }
@@ -181,7 +136,7 @@
           "scientific_name": "Forcipomyia",
           "role": "Pollinator — the only insect small enough to pollinate cacao flowers",
           "threat_status": "Data Deficient",
-          "image_url": "/species/sp_midge_fly.jpg"
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Forcipomyia_sp_2.jpg"
         },
         {
           "id": "sp_jaguar",
@@ -189,7 +144,7 @@
           "scientific_name": "Panthera onca",
           "role": "Apex Predator — controls herbivore populations protecting young trees",
           "threat_status": "Near Threatened",
-          "image_url": "/species/sp_jaguar.jpg"
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Standing_jaguar.jpg"
         },
         {
           "id": "sp_strangler_fig",
@@ -197,7 +152,7 @@
           "scientific_name": "Ficus aurea",
           "role": "Keystone Resource — provides food year-round for wildlife",
           "threat_status": "Least Concern",
-          "image_url": "/species/sp_strangler_fig.jpg"
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Ficus_watkinsiana_on_Syzygium_hemilampra-Iluka.jpg"
         }
       ]
     },
@@ -212,31 +167,16 @@
         "region": "Punjab",
         "country": "India",
         "threat_level": "Endangered",
-        "image_url": "/species/eco_riparian_grasslands.jpg",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Landscape_of_Punjab_%2CIndia.JPG",
         "geojson_region": {
           "type": "Polygon",
           "coordinates": [
             [
-              [
-                74,
-                29
-              ],
-              [
-                76,
-                29
-              ],
-              [
-                76,
-                31
-              ],
-              [
-                74,
-                31
-              ],
-              [
-                74,
-                29
-              ]
+              [74, 29],
+              [76, 29],
+              [76, 31],
+              [74, 31],
+              [74, 29]
             ]
           ]
         }
@@ -248,7 +188,7 @@
           "scientific_name": "Catolaccus grandis",
           "role": "Pest Control — naturally predates on cotton pests",
           "threat_status": "Not Evaluated",
-          "image_url": "/species/sp_parasite_wasp.jpg"
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Ichneumon_extensorius01.jpg"
         },
         {
           "id": "sp_soil_nematode",
@@ -256,7 +196,7 @@
           "scientific_name": "Steinernema",
           "role": "Soil Health — controls soil-borne pests and aerates soil",
           "threat_status": "Least Concern",
-          "image_url": "/species/sp_soil_nematode.jpg"
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/CelegansGoldsteinLabUNC.jpg"
         },
         {
           "id": "sp_migratory_bird",
@@ -264,7 +204,7 @@
           "scientific_name": "Pastor roseus",
           "role": "Pest Control — massive consumption of locusts and insects",
           "threat_status": "Least Concern",
-          "image_url": "/species/sp_migratory_bird.jpg"
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Pastor_roseus_2023.jpg"
         }
       ]
     },
@@ -279,31 +219,16 @@
         "region": "Michoacán",
         "country": "Mexico",
         "threat_level": "Endangered",
-        "image_url": "/species/eco_subtropical_forest.jpg",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Pinus_pseudostrobus_var_apulcensis_2.jpg",
         "geojson_region": {
           "type": "Polygon",
           "coordinates": [
             [
-              [
-                -103,
-                18
-              ],
-              [
-                -100,
-                18
-              ],
-              [
-                -100,
-                20
-              ],
-              [
-                -103,
-                20
-              ],
-              [
-                -103,
-                18
-              ]
+              [-103, 18],
+              [-100, 18],
+              [-100, 20],
+              [-103, 20],
+              [-103, 18]
             ]
           ]
         }
@@ -315,7 +240,7 @@
           "scientific_name": "Apis mellifera",
           "role": "Primary Pollinator",
           "threat_status": "Least Concern",
-          "image_url": "/species/sp_honeybee.jpg"
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Apis_mellifera_Western_honey_bee.jpg"
         },
         {
           "id": "sp_monarch",
@@ -323,7 +248,7 @@
           "scientific_name": "Danaus plexippus",
           "role": "Indicator Species — shares overwintering habitat near avocado regions",
           "threat_status": "Endangered",
-          "image_url": "/species/sp_monarch.jpg"
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Monarch_Butterfly_Danaus_plexippus_Male_2664px.jpg"
         },
         {
           "id": "sp_mexican_pine",
@@ -331,7 +256,7 @@
           "scientific_name": "Pinus pseudostrobus",
           "role": "Canopy Tree — native forest often cleared for avocado expansion",
           "threat_status": "Least Concern",
-          "image_url": "/species/sp_mexican_pine.jpg"
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Pinus_pseudostrobus_var_apulcensis_2.jpg"
         }
       ]
     }

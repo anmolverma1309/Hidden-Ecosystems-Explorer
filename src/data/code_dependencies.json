@@ -1,0 +1,156 @@
+{
+  "nodes": [
+    {
+      "id": "App.jsx",
+      "name": "App.jsx",
+      "type": "utility",
+      "size": 2410
+    },
+    {
+      "id": "components/BarcodeScanner.jsx",
+      "name": "BarcodeScanner.jsx",
+      "type": "component",
+      "size": 1145
+    },
+    {
+      "id": "components/DependencyGraph.jsx",
+      "name": "DependencyGraph.jsx",
+      "type": "component",
+      "size": 3479
+    },
+    {
+      "id": "components/EcosystemCard.jsx",
+      "name": "EcosystemCard.jsx",
+      "type": "component",
+      "size": 1569
+    },
+    {
+      "id": "components/SafeImage.jsx",
+      "name": "SafeImage.jsx",
+      "type": "component",
+      "size": 739
+    },
+    {
+      "id": "components/SpeciesCard.jsx",
+      "name": "SpeciesCard.jsx",
+      "type": "component",
+      "size": 1773
+    },
+    {
+      "id": "components/StatCounter.jsx",
+      "name": "StatCounter.jsx",
+      "type": "component",
+      "size": 1484
+    },
+    {
+      "id": "main.jsx",
+      "name": "main.jsx",
+      "type": "utility",
+      "size": 229
+    },
+    {
+      "id": "sections/GraphSection.jsx",
+      "name": "GraphSection.jsx",
+      "type": "section",
+      "size": 2031
+    },
+    {
+      "id": "sections/HeroSection.jsx",
+      "name": "HeroSection.jsx",
+      "type": "section",
+      "size": 3479
+    },
+    {
+      "id": "sections/ImpactSection.jsx",
+      "name": "ImpactSection.jsx",
+      "type": "section",
+      "size": 5329
+    },
+    {
+      "id": "sections/MapSection.jsx",
+      "name": "MapSection.jsx",
+      "type": "section",
+      "size": 3277
+    },
+    {
+      "id": "sections/ProblemSection.jsx",
+      "name": "ProblemSection.jsx",
+      "type": "section",
+      "size": 3128
+    },
+    {
+      "id": "sections/ResultsSection.jsx",
+      "name": "ResultsSection.jsx",
+      "type": "section",
+      "size": 3180
+    },
+    {
+      "id": "sections/ScannerSection.jsx",
+      "name": "ScannerSection.jsx",
+      "type": "section",
+      "size": 7030
+    }
+  ],
+  "links": [
+    {
+      "source": "App.jsx",
+      "target": "sections/HeroSection.jsx"
+    },
+    {
+      "source": "App.jsx",
+      "target": "sections/ProblemSection.jsx"
+    },
+    {
+      "source": "App.jsx",
+      "target": "sections/ScannerSection.jsx"
+    },
+    {
+      "source": "components/EcosystemCard.jsx",
+      "target": "components/SafeImage.jsx"
+    },
+    {
+      "source": "components/SpeciesCard.jsx",
+      "target": "components/SafeImage.jsx"
+    },
+    {
+      "source": "main.jsx",
+      "target": "App.jsx"
+    },
+    {
+      "source": "sections/GraphSection.jsx",
+      "target": "components/DependencyGraph.jsx"
+    },
+    {
+      "source": "sections/HeroSection.jsx",
+      "target": "components/SafeImage.jsx"
+    },
+    {
+      "source": "sections/ImpactSection.jsx",
+      "target": "components/SafeImage.jsx"
+    },
+    {
+      "source": "sections/ProblemSection.jsx",
+      "target": "components/StatCounter.jsx"
+    },
+    {
+      "source": "sections/ProblemSection.jsx",
+      "target": "components/SafeImage.jsx"
+    },
+    {
+      "source": "sections/ResultsSection.jsx",
+      "target": "components/EcosystemCard.jsx"
+    },
+    {
+      "source": "sections/ResultsSection.jsx",
+      "target": "components/SpeciesCard.jsx"
+    },
+    {
+      "source": "sections/ResultsSection.jsx",
+      "target": "components/SafeImage.jsx"
+    },
+    {
+      "source": "sections/ScannerSection.jsx",
+      "target": "components/BarcodeScanner.jsx"
+    }
+  ]
+}

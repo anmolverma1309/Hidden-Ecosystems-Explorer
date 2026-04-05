@@ -26,13 +26,16 @@ export default function ProblemSection() {
              {/* Split image effect */}
              <div className="relative h-[300px] w-full rounded-xl overflow-hidden group bg-forest-900">
                <SafeImage 
-                  src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=800" 
+                  key="shelf-image"
+                  src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Veganz_Berlin_Vegan_Products_Grocery_Store_Shelf_15592862090.jpg" 
                   alt="Supermarket Shelf" 
                   className="absolute inset-0 w-full h-full transition-opacity duration-1000 ease-in-out group-hover:opacity-0" 
                />
                <SafeImage 
-                  src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80&w=800" 
-                  alt="Forest Deforestation" 
+                  key="forest-image"
+                  src="https://eskipaper.com/images/forest-background-5.jpg" 
+                  alt="Healthy Forest Ecosystem" 
+                  loading="eager"
                   className="absolute inset-0 w-full h-full opacity-0 transition-opacity duration-1000 ease-in-out group-hover:opacity-100 mix-blend-luminosity grayscale group-hover:grayscale-0" 
                />
                <div className="absolute inset-0 bg-forest-900/30 group-hover:bg-forest-900/10 transition-colors duration-1000"></div>

@@ -2,6 +2,8 @@ import { useState, useRef, useEffect, lazy, Suspense } from 'react';
 import HeroSection from './sections/HeroSection';
 import ProblemSection from './sections/ProblemSection';
 import ScannerSection from './sections/ScannerSection';
+import CodeEcosystemPage from './pages/CodeEcosystemPage';
+import { Terminal } from 'lucide-react';
 
 const ResultsSection = lazy(() => import('./sections/ResultsSection'));
 const GraphSection = lazy(() => import('./sections/GraphSection'));
@@ -10,6 +12,7 @@ const ImpactSection = lazy(() => import('./sections/ImpactSection'));
 
 function App() {
   const [activeProduct, setActiveProduct] = useState(null);
+  const [showCodeEcosystem, setShowCodeEcosystem] = useState(false);
   const timerRef = useRef(null);
   
   useEffect(() => () => clearTimeout(timerRef.current), []);
@@ -26,6 +29,10 @@ function App() {
       document.getElementById('results-section')?.scrollIntoView({ behavior: 'smooth' });
     }, 100);
   };
+
+  if (showCodeEcosystem) {
+    return <CodeEcosystemPage onBack={() => setShowCodeEcosystem(false)} />;
+  }
 
   return (
     <main className="w-full h-screen overflow-y-auto overflow-x-hidden snap-y snap-mandatory scroll-smooth bg-forest-900 scrollbar-hide">
@@ -49,6 +56,18 @@ function App() {
             <div key={i} className="w-2 h-2 rounded-full bg-forest-border/50 transition-all"></div>
          ))}
       </div>
+
+      {/* Developer Access Toggle */}
+      <button 
+        onClick={() => setShowCodeEcosystem(true)}
+        className="fixed bottom-6 left-6 z-50 p-3 rounded-full bg-forest-800/50 backdrop-blur-md border border-forest-border text-text-muted hover:text-eco-green hover:border-eco-green transition-all group"
+        title="View Code Ecosystem"
+      >
+        <Terminal className="w-4 h-4" />
+        <div className="max-w-0 overflow-hidden group-hover:max-w-xs group-hover:ml-2 transition-all whitespace-nowrap text-[10px] uppercase font-bold tracking-tighter">
+          Source Ecosystem
+        </div>
+      </button>
       
     </main>
   );
